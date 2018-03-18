@@ -11,11 +11,12 @@
   "_moduleAliases": {
     "@root": ".",
     "@BudgetManager": "./services/BudgetManagerAPI",
-    "@BudgetManagerModels":"./services/BudgetManagerAPI/app/models",
-    "@BudgetManagerAPI":"./services/BudgetManagerAPI/config/app.js",
+    "@BudgetManagerModels": "./services/BudgetManagerAPI/app/models",
+    "@BudgetManagerAPI": "./services/BudgetManagerAPI/config/app.js",
     "@config": "./services/BudgetManagerAPI/config/index.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bcrypt": "^1.0.3",
     "body-parser": "^1.18.2",
     "consign": "^0.1.6",
@@ -26,6 +27,8 @@
     "mongoose": "^5.0.10",
     "morgan": "^1.9.0",
     "passport": "^0.4.0",
-    "passport-jwt": "^4.0.0"
+    "passport-jwt": "^4.0.0",
+    "vue-cookie": "^1.1.4",
+    "vuetify": "^1.0.8"
   }
 }
